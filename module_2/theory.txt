@@ -1,0 +1,86 @@
+
+1) How memory is managed in Python? 
+
+->	Memory management in Python involves a private heap containing all Python objects and data structures. The management of
+ this private heap is ensured internally by the Python memory manager.
+
+2)  What is the purpose continue statement in python? 
+
+->     The continue statement in Python is used to skip the remaining code inside a loop for the current iteration only.
+
+3) What are negative indexes and why are they used? 
+
+->   Negative indexing is used in Python to manipulate sequence objects such as lists, arrays, strings, etc. Negative 
+ indexing retrieves elements from the end by providing negative numbers as sequence indexes.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+1) B1.What is Python ,Name some of the features of Python.
+ 
+	Python can be used to develop both desktop and web apps and complex scientific and numerical applications. Python's 
+ data analysis features help you create custom big data solutions without so much time and effort. You can also use the 
+ Python data visualization libraries and APIs to present data in a more appealing way.
+
+	
+2) Is python the right choice for Web based Programming? 
+
+	Python is a versatile language that can be used for a wide range of applications, including web development. It is
+  a high-level language that can be used to write complex applications with minimal coding. Python's versatility also makes
+  it ideal for developing machine learning models and scientific computing.
+
+3) Why was the language called as Python?
+
+	The Python programming language was named after the British comedy group Monty Python because its creator, Guido van
+  Rossum, was a fan of their work and found the name unique and suitable for his new language.
+
+4)What is the language from which Python has got its features or derived its features? 
+
+	Python has derived features and inspiration from languages like ABC, Modula-3, C, Perl, Lisp, and Smalltalk, among 
+  others, but it has also introduced its own unique features and design choices that make it a distinct and widely used
+  programming language.
+
+5) Does python support switch or case statement in Python?If not what is the reason for the same?
+
+	In short, Python does not have a built-in `switch` or `case` statement because of its focus on simplicity and 
+ readability. Instead, you can achieve similar functionality using `if`, `elif`, and `else` statements or by using
+ dictionaries to map input values to corresponding actions or functions.
+
+6)How Python is interpreted?
+
+	In short, Python is interpreted by first converting the source code into an intermediate form called bytecode.
+  The Python interpreter then executes this bytecode line by line, managing variable types and memory allocation dynamically
+  as the code runs. This interpretation process allows for rapid development and easy debugging.
+
+7)How memory is managed in Python?
+
+	Memory management in Python involves a private heap containing all Python objects and data structures. The
+  management of this private heap is ensured internally by the Python memory manager.
+
+ 
+8)What is namespace in Python?
+
+	a namespace in Python is a container that holds a collection of names (identifiers) and their associated objects. 
+ It helps organize and manage the scope and visibility of variables, functions, classes, and modules in your code. Python
+ has various types of namespaces, including local, global, built-in, and module namespaces, which determine where identifiers
+ are accessible and how they avoid naming conflicts.
+
+9)What is the purpose continue statement in python?
+
+   the `continue` statement in Python is used to skip the current iteration of a loop and proceed to the next iteration. 
+ It allows you to bypass specific code within the loop based on conditions, enabling you to control the flow of your loop.
+
+10) What are the tools that help to find bugs or perform static analysis?
+
+	Pychecker and Pylint are the static analysis tools that help to find bugs in python. Pychecker is an opensource
+  tool for static analysis that detects the bugs from source code and warns about the style and complexity of the bug
+
+11) What are Python decorators?
+
+	A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without
+ modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+
+12) .What is PEP 8?
+	The primary focus of PEP 8 is to improve the readability and consistency of Python code. PEP stands for Python 
+ Enhancement Proposal, and there are several of them. A PEP is a document that describes new features proposed for Python 
+ and documents aspects of Python, like design and style, for the community.
+

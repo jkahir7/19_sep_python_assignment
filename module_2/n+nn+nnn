@@ -1,0 +1,15 @@
+#Write a Python program that accepts an integer (n) and computes the value of
+#n+nn+nnn.
+
+n=int(input("Enter any Integer :- "))
+
+a=str(n) 
+b=a+a   
+c=a+a+a
+
+x=int(a)   # convert in to integers
+y=int(b)
+z=int(c)
+total=x+y+z
+
+print(f"{x} + {y} + {z} = {total}")
