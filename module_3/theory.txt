@@ -1,0 +1,28 @@
+1)  What is List? How will you reverse a list? 
+
+	A list is a data structure in Python that is a mutable, or changeable, ordered 
+ sequence of elements. Reverse Array using the reversed() and reverse() built-in function.
+ Using reversed() we can reverse the list and a list_reverseiterator object is created, 
+ from which we can create a list using list() type casting. Or, we can also use the list 
+ reverse() function to reverse list in place.
+
+2) Differentiate between append () and extend () methods? 
+
+	The append() method in the Python programming language adds an item to a list that
+  already exists whereas the extend() method adds each of the iterable elements which is 
+  supplied as a parameter to the end of the original list.
+
+3) How will you compare two lists? 
+
+	sort() method sorts the two lists and the == operator compares the two lists item
+  by item which means they have equal data items at equal positions. This checks if the 
+  list contains equal data item values but it does not take into account the order of 
+  elements in the list.23-Aug-2023
+
+4) What is tuple? Difference between list and tuple.
+
+    A tuple in Python is similar to a list. The difference between the two is that we cannot change the
+    elements of a tuple once it is assigned whereas we can change the elements of a list.
+
+      The key difference between tuples and lists is that while tuples are immutable objects, lists are
+      mutable.
