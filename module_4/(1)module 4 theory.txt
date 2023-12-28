@@ -1,0 +1,108 @@
+1) Explain Exception handling? What is an Error in Python?
+
+	->An error is an issue in a program that prevents the program from completing its task. In comparison,
+	 an exception is a condition that interrupts the normal flow of the program. Both errors and exceptions are a
+	 type of runtime error, which means they occur during the execution of a program.
+2) How many except statements can a try-except block have? Name Some built-in exception classes:
+
+	->try-except block can have multiple except statement to handle different types of exception.
+
+	
+	-some built-in exception classes include:
+		1.zerodivisionerror
+		2.valueerror
+		3.typeerror
+		4.filenotfounderror
+		5.indexerror
+	each exception class addresses a specific type of error that may occur during program execution.
+
+3) When will the else part of try-except-else be executed?
+
+	-> The else part is executed when no exception occurs.
+
+4) Can one block of except statements handle multiple exception?
+
+	->Yes, a single block of except statements in Python can handle multiple exceptions
+
+5)When is the finally block executed?
+
+	->A finally block always executes, regardless of whether an exception is thrown.
+
+6) What happens when „1‟== 1 is executed?
+
+	->It simply evaluates to False and does not raise any exception.
+
+7)How Do You Handle Exceptions With Try/Except/Finally In Python?Explain with coding snippets.
+
+	->To handle the exception, we have put the code, result = numerator/denominator inside the try block. Now when
+	 an exception occurs, the rest of the code inside the try block is skipped. The except block catches the exception 
+	and statements inside the except block are executed.
+
+8) What are oops concepts? Is multiple inheritance supported in java
+
+
+	-> OOP concepts include abstraction, encapsulation, inheritance and polymorphism. Basically, Java OOP concepts let
+	 us create working methods and variables, then re-use all or part of them without compromising security.java does 
+	not suppert multiple inheritance.
+
+9)How to Define a Class in Python? What Is Self? Give An Example Of A Python Class.
+
+	->A class in Python can be defined using the class keyword. The self parameter is a reference to the current
+	 instance of the class, and is used to access variables that belongs to the class.
+		class MyClass:
+        		def hello(self):
+           		   print("Hello, world!")
+
+   			 obj = MyClass()
+   			 obj.hello()
+
+10) Explain Inheritance in Python with an example? What is init? Or What Is A Constructor In Python?
+
+	->Just like a parent-child relationship, inheritance works on derived classes relative to the base class.
+	 Every “Derived” class inherits from a “Base” class.
+	ex: 
+	class Country:
+
+            def ShowCountry(self):
+
+               print(“This is india”);
+
+         class State(Country):
+
+            def ShowState(self):
+
+                print(“This is State”);
+
+	obj =State();
+
+	obj.ShowCountry();
+
+	obj.ShowState();
+
+	init:
+	-> The __init__ method is the Python equivalent of the C++ constructor in an object-oriented approach.
+	 The __init__ function is called every time an object is created from a class.
+
+11)What is Instantiation in terms of OOP terminology?
+
+	-> instantiation describes the processes of creating a new object for a class using a new keyword.
+
+12)What relationship is appropriate for Course and Faculty?
+
+	->Inheritance appropriate for Course and Faculty.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

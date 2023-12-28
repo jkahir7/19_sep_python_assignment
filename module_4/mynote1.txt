@@ -1,0 +1,10 @@
+id = 2
+name = jk
+subject = python
+welcome to python
+welcome to lecture of django
+my name is jk ahir
+evwwevwebwebw
+evwevi
+ list = ['j', 'k', ' ', 'j', 'k', ' ', 'j', 'k']
+ list = ['jk jk jk']
